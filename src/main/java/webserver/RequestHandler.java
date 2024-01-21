@@ -39,7 +39,7 @@ public class RequestHandler extends Thread {
         	if(line == null) {
         		return;
         	}
-        	
+        	System.out.println("ddd");
         	String url = HttpRequestUtils.getURL(line);
         	System.out.println("1--------URL : "+url);
         	
